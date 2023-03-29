@@ -25,7 +25,7 @@ function App(): JSX.Element {
     {
       id: 4,
       name: 'Kit Marrom Lançamento',
-      description: 'Nesse outono o marrom está em alta, aproveite e confira ',
+      description: 'Nesse outono o marrom está em alta, aproveite e confira',
       imageUrl: 'https://images.unsplash.com/photo-1614676471928-2ed0ad1061a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=441&q=80',
     },
   ];
@@ -33,7 +33,9 @@ function App(): JSX.Element {
     <div className="App">
       <Header />
       <h1>Boutique Dona Bitencourt </h1>
-      <p>Vista-se com estilo e elegância. Descubra nossa coleção única e exclusiva de roupas e acessórios que vão fazer você se destacar em qualquer ocasião</p>
+      <div>
+        <p>Vista-se com estilo e elegância. Descubra nossa coleção única e exclusiva de roupas, acessórios e calçados que vão fazer você se destacar em qualquer ocasião</p>
+      </div>
       <ProductList products={products} />
     </div>
   );
